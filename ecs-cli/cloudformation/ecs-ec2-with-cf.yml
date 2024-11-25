@@ -6,7 +6,6 @@ Parameters:
     Default: my-ecs-env
     Description: "A name that will be used for namespacing all cluster resources."
   InstanceType:
-    Description: EC2 instance type
     Type: String
     Default: t2.small
     Description: Class of EC2 instance used to host containers. Choose t2 for testing, m5 for general purpose, c5 for CPU intensive services, and r5 for memory intensive services
